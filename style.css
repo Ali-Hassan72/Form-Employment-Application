@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0 0 0 / 8%);
+}
+
+div {
+  background-image: url("man.jpg");
+  width: 600px;
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: #e6e6e6;
+  padding: 30px 0px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center bottom;
+  background-size: cover;
+  margin-bottom: 60px;
+}
+
+.header {
+  color: white;
+  margin: 100px 400px 60px 5px;
+  border-radius: 15px;
+  font-family: "PT Sans Narrow", sans-serif;
+  padding: 10px;
+  padding-left: 36px;
+  background: rgba(48, 44, 37, 0.55);
+  width: 50%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+section {
+  color: white;
+  font-size: larger;
+}
+
+li {
+  padding: 8px 36px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form {
+  margin: 40px auto 40px;
+  padding-top: 0px;
+  width: 600px;
+  color: rgb(71, 71, 71);
+  font-family: "PT Sans Narrow";
+  font-size: 14px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 0.082);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1);
+}
+
+.start-required {
+  font-size: 18px;
+  color: red;
+}
+
+strong,
+.name,
+.birth,
+.phone-n,
+.email,
+.Address,
+.how-referred,
+.CV,
+.skills,
+.Certification,
+.Known {
+  padding: 5px 20px;
+  margin-top: 7px;
+  margin-bottom: 9px;
+  color: #474747;
+  font-size: 16px;
+  font-weight: bold;
+  width: 35% !important;
+}
+
+strong {
+    display: block;
+  }
+  
+.label-fname,
+.lname,
+.acode,
+.Phonen,
+.S-Address,
+.S-Address-l2,
+.City,
+.state,
+.zip-code,
+.select,
+.country {
+  color: #616161;
+  min-height: 13px;
+  font-size: 0.9em;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 3px;
+  display: inline-block;
+  text-align: -webkit-match-parent;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea {
+  width: 50%;
+  margin: 4px 1px;
+}
+
+textarea {
+  width: 100%;
+}
+
+.checkbox {
+  padding: 4px 1px;
+  margin: 1px;
+}
+
+#Address,
+#Address-l2,
+#Address1,
+#Address-l21,
+#Address2,
+#Address-l22 {
+  width: 100%;
+}
+
+#skills {
+  width: 80%;
+}
+
+#Known1,
+#Known2 {
+  width: 50%;
+}
+
+button {
+  width: 40%;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  text-shadow: rgb(216, 93, 0) -1px -1px 0px;
+  box-shadow: rgb(255, 204, 122) 0px 1px 0px 0px inset;
+  border-radius: 0.5em;
+  border: 1px solid  rgb(216, 93, 0); 
+  margin: 30px 200px 30px 150px;
+  padding: 8px 18px;
+  background: -webkit-gradient(
+    linear,
+    0% 0%,
+    0% 100%,
+    from(rgb(250, 165, 26)),
+    to(rgb(255, 108, 0))
+  );
+}
